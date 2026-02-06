@@ -1,0 +1,40 @@
+{
+  "total_samples": 50,
+  "train_samples": 40,
+  "test_samples": 10,
+  "num_classes": 10,
+  "classes": [
+    "अनुष्टुभ्",
+    "इन्द्रवज्रा",
+    "उपेन्द्रवज्रा",
+    "द्रुतविलम्बितम्",
+    "भुजङ्गप्रयातम्",
+    "मन्दाक्रान्ता",
+    "मालिनी",
+    "वसन्ततिलका",
+    "शार्दूलविक्रीडितम्",
+    "शिखरिणी"
+  ],
+  "test_accuracy": 0.8,
+  "cv_accuracy_mean": 0.775,
+  "cv_accuracy_std": 0.049999999999999996,
+  "feature_names": [
+    "pattern_length",
+    "guru_count",
+    "laghu_count",
+    "guru_laghu_ratio"
+  ],
+  "feature_importance": {
+    "pattern_length": 0.268832367106014,
+    "guru_count": 0.23057008194592782,
+    "laghu_count": 0.2509575461808849,
+    "guru_laghu_ratio": 0.24964000476717324
+  },
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 20,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "random_state": 42
+  }
+}
